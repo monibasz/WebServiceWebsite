@@ -26,7 +26,7 @@ body{
   padding-top: 6rem;
   display: inline-block;
   font-size: 3.5rem;
-  color:var(--color);
+  color:#ED7014;
   position: relative;
   letter-spacing: .2rem;
 }
@@ -36,8 +36,8 @@ body{
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
-  border-top:.4rem solid var(--color);
-  border-left:.4rem solid var(--color);
+  border-top:.4rem solid #ED7014;
+  border-left:.4rem solid #ED7014;
 }
 
 .heading::before{
@@ -53,7 +53,7 @@ body{
   outline: none;
   border: none;
   border-radius: 5rem;
-  background: var(--color);
+  background: #ED7014;
   color:#fff;
   cursor: pointer;
   height:3.5rem;
@@ -552,7 +552,7 @@ body{
     padding:1rem 2rem;
     margin-top:1rem;
     
-    background:var(--color);
+    background:#ED7014;
   }
   
   .footer h1{
