@@ -16,13 +16,26 @@ $(document).ready(function(){
            $('.header').css({'background':'none','box-shadow':'none'});
          }
       });
-      $('.accordion-header').click(function(){
-         $('.accordion .accordion-body').slideUp();
-         $(this).next('.accordion-body').slideDown();
-        $('.accordion .accordion-header span').text('+');
-        $(this).children('span').text('-');
-      });
+    //   $('.accordion-header').click(function(){
+    //      $('.accordion .accordion-body').slideUp();
+    //      $(this).next('.accordion-body').slideDown();
+    //     $('.accordion .accordion-header span').text('+');
+    //     $(this).children('span').text('-');
+    //   });
     
-    
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
     
     });
