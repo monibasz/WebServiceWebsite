@@ -117,7 +117,8 @@ body{
 }
 
 .header .navbar ul li a:hover{
-  color:grey;
+  color:#FECA12;
+  
 }
 
  .header .fa-bars{
@@ -327,7 +328,7 @@ body{
     width:100vw;
     text-align: center;
     
-    background-color: white;
+    background-color:grey;
   }
   
   .team .heading{
@@ -348,7 +349,7 @@ body{
   .team .row .card{
     height:35rem;
     width:25rem;
-    background:black;
+    background:white;
     text-align: center;
     margin:7rem 2rem;
     position: relative;
