@@ -527,7 +527,7 @@ font-size: 20px;
 
   }
   .faq .row .container section details summary::after{
-    content: "+";
+    content: '+';
     position: absolute;
     top: 10px; right: 15px;
     font-size: 30px;
