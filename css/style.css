@@ -505,7 +505,7 @@ body{
   }
   .faq .row .container section{
     width: 700px;
-    margin: 4rem;
+  
   }
 
   .faq .row .container section details summary{
@@ -521,10 +521,11 @@ font-size: 20px;
 
   }
   .faq .row .container section details p{
-    font-size: 15px;
+    font-size: 10px;
     padding: 10px;
     color: #333;
     background: #fff;
+
 
   }
   .faq .row .container section details summary::after{
