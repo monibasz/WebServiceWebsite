@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 :root{
-  --color:#01105A;
+  --color:#ED7014;
 }
 
 *{
@@ -92,7 +92,7 @@ body{
 
 .header .logo{
   font-size: 2.5rem;
-  color:#F84527;
+  color:#AC7114;
 }
 
 .header .logo li{
@@ -112,7 +112,7 @@ body{
 
 .header .navbar ul li a{
   font-size: 2rem;
-  color:#F84527;
+  color:#AC7114;
   font-weight: 700;
 }
 
@@ -132,7 +132,7 @@ body{
  .home{
     min-height: 100vh;
     width: 100vw;
-    background:linear-gradient(#F84527,#F4A11D);
+    background:linear-gradient(#AC7114,#F4A11D);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,7 +251,7 @@ body{
   
   .about .row .content h3{
     font-size: 3rem;
-    color: var(--color);
+    color:var(--color);
     text-transform: none;
   }
   
