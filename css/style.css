@@ -553,6 +553,7 @@ body{
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    display: inline-block;
   }
   
   .active, .accordion:hover {
