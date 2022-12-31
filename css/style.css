@@ -497,7 +497,7 @@ body{
     width:50vw;
   }
   
-  .faq .row .accordion-container{
+  /* .faq .row .accordion-container{
     width: 50%;
     text-align: left;
   }
@@ -540,7 +540,7 @@ body{
   
   .faq .row .accordion-container .accordion:nth-child(1) .accordion-body{
     display: block;
-  }
+  } */
   
   .footer{
     width:100%;
