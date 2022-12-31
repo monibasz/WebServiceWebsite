@@ -65,7 +65,7 @@ body{
 .btn:hover{
   letter-spacing: .1rem;
   opacity: .8;
-  color: #F4A11D;
+  color: #fff;
 }
 
 
@@ -92,7 +92,7 @@ body{
 
 .header .logo{
   font-size: 2.5rem;
-  color:#AD9833;
+  color:grey;
 }
 
 .header .logo li{
@@ -112,12 +112,12 @@ body{
 
 .header .navbar ul li a{
   font-size: 2rem;
-  color:#AD9833;
+  color:grey;
   font-weight: 700;
 }
 
 .header .navbar ul li a:hover{
-  color:grey;
+  color:#F4A11D;
 }
 
  .header .fa-bars{
