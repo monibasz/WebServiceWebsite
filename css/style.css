@@ -497,6 +497,24 @@ body{
     height:70vh;
     width:50vw;
   }
+
+  .faq .row .container{
+    background: #fff;
+    width: 50%;
+    text-align: left;
+  }
+  .faq .row .container section{
+    width: 700px;
+  }
+
+  .faq .row .container section details summary{
+background: #AC7114;
+padding: 15px;
+color: #fff;
+border: 1px solid #333;
+position: relative;
+
+  }
   
   /* .faq .row .accordion-container{
     width: 50%;
