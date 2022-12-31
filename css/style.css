@@ -505,6 +505,7 @@ body{
   }
   .faq .row .container section{
     width: 700px;
+    margin: 4rem;
   }
 
   .faq .row .container section details summary{
