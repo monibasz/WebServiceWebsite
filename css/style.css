@@ -117,7 +117,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-  color:grey;
+  color:var(--color);
 }
 
  .header .fa-bars{
