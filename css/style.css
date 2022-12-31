@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 :root{
-  --color:#ED7014;
+  --color:#AC7114;
 }
 
 *{
@@ -26,7 +26,7 @@ body{
   padding-top: 6rem;
   display: inline-block;
   font-size: 3.5rem;
-  color:#ED7014;
+  color:var(--color);
   position: relative;
   letter-spacing: .2rem;
 }
@@ -36,8 +36,8 @@ body{
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
-  border-top:.4rem solid #ED7014;
-  border-left:.4rem solid #ED7014;
+  border-top:.4rem solid var(--color);
+  border-left:.4rem solid var(--color);
 }
 
 .heading::before{
@@ -53,7 +53,7 @@ body{
   outline: none;
   border: none;
   border-radius: 5rem;
-  background: #ED7014;
+  background: var(--color);
   color:#fff;
   cursor: pointer;
   height:3.5rem;
@@ -92,7 +92,7 @@ body{
 
 .header .logo{
   font-size: 2.5rem;
-  color:#AC7114;
+  color:#AD9833;
 }
 
 .header .logo li{
@@ -112,7 +112,7 @@ body{
 
 .header .navbar ul li a{
   font-size: 2rem;
-  color:#AC7114;
+  color:#AD9833;
   font-weight: 700;
 }
 
@@ -132,7 +132,7 @@ body{
  .home{
     min-height: 100vh;
     width: 100vw;
-    background:linear-gradient(#AC7114,#F4A11D);
+    background:linear-gradient(#AC7114,#AD9833);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -552,7 +552,7 @@ body{
     padding:1rem 2rem;
     margin-top:1rem;
     
-    background:#ED7014;
+    background:#AC7114;
   }
   
   .footer h1{

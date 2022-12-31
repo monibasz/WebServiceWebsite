@@ -11,7 +11,7 @@ $(document).ready(function(){
     
          if($(window).scrollTop()>30){
   
-  $('.header').css({'background':'#ED7014'});
+  $('.header').css({'background':'#AC7114'});
          }else{
            $('.header').css({'background':'none','box-shadow':'none'});
          }
