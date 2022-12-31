@@ -132,7 +132,7 @@ body{
  .home{
     min-height: 100vh;
     width: 100vw;
-    background:linear-gradient(#AC7114,#AD9833);
+    background:linear-gradient(#AC7114,#AD9833,grey);
     display: flex;
     align-items: center;
     justify-content: center;
