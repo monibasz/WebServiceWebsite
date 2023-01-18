@@ -546,6 +546,9 @@ font-size: 20px;
    .faq .row .container{
     width: 50%;
     text-align: left;
+    height: 50%;
+    
+
   }
   
   .faq .row .container .accordion .accordian-header{
