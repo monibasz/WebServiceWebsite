@@ -551,7 +551,7 @@ font-size: 20px;
 
   }
   
-  .faq .row .container .accordion .accordian-header{
+  .faq .row .container .accordion .accordion-header{
     background-color: var(--color);
     margin:1rem 0;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
