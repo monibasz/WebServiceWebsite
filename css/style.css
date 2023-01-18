@@ -578,7 +578,7 @@ font-size: 20px;
     text-transform: none;
   }
   
-  .faq .row .accordion-container .accordion:nth-child(1) .accordion-body{
+  .faq .row .container .accordion:nth-child(1) .accordion-body{
     display: block;
   } 
 
