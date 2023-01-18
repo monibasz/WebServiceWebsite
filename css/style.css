@@ -497,71 +497,31 @@ body{
     height:70vh;
     width:50vw;
   }
-
-    /* .faq .row .container{
-    background: #fff;
+  /* .faq .row .accordion-container{
     width: 50%;
     text-align: left;
   }
-  .faq .row .container section{
-    height: 700px;
-    width: 500px;
-    margin-left: 10px;
   
-  }
-
-  .faq .row .container section details summary{
-background: #AC7114;
-padding: 15px;
-color: #fff;
-border: 1px solid #FECA12;
-position: relative;
-list-style: none;
-border: none;
-cursor: pointer;
-font-size: 20px;
-
-  }
-  .faq .row .container section details p{
-    font-size: 15px;
-    padding: 10px;
-    margin: 15px;
-    color: #333;
-    background: #fff;
-    text-transform: none;
-
-
-  }
-  .faq .row .container section details summary::after{
-    content: '+';
-    position: absolute;
-    top: 10px; right: 15px;
-    font-size: 30px;
-    color: #fff;
-    transition: .2s linear;
-  }   */
-
-
-  
-   /* .faq .row .container{
-    width: 100%;
-    text-align: left;
-    
-    
-
-  }
-  
-  .faq .row .container details .accordion-header{
+  .faq .row .accordion-container .accordion .accordion-header{
     background-color: var(--color);
     margin:1rem 0;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
     cursor: pointer;
   }
   
-
+  .faq .row .accordion-container .accordion .accordion-header span{
+    display: inline-block;
+    text-align: center;
+    height:4rem;
+    width:5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    background:#fff;
+    color:#333;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
   
-  
-  .faq .row .container details .accordion-header .ques{
+  .faq .row .accordion-container .accordion .accordion-header summary{
     display: inline;
     color: #fff;
     font-weight: 400;
@@ -569,18 +529,28 @@ font-size: 20px;
     font-size: 1.5rem;
   }
   
-  .faq .row .container details .accordion-body{
+  .faq .row .accordion-container .accordion .accordion-body{
     padding:1rem;
     color:#444;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
     font-size: 1.3rem;
     display: none;
-    text-transform: none;
-  } */
+  }
   
-  /* .faq .row .container details:nth-child(1) .accordion-body{
+  .faq .row .accordion-container .accordion:nth-child(1) .accordion-body{
     display: block;
-  }  */
+  } */
+   
+
+
+
+
+
+  
+
+
+  
+  
 
   
   
