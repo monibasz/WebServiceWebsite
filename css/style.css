@@ -551,7 +551,7 @@ font-size: 20px;
 
   }
   
-  .faq .row .container .accordion .accordion-header{
+  .faq .row .container details .accordion-header{
     background-color: var(--color);
     margin:1rem 0;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
@@ -561,7 +561,7 @@ font-size: 20px;
 
   
   
-  .faq .row .container .accordion .accordion-header .ques{
+  .faq .row .container details .accordion-header .ques{
     display: inline;
     color: #fff;
     font-weight: 400;
@@ -569,7 +569,7 @@ font-size: 20px;
     font-size: 1.5rem;
   }
   
-  .faq .row .container .accordion .accordion-body{
+  .faq .row .container details .accordion-body{
     padding:1rem;
     color:#444;
     box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
@@ -578,9 +578,9 @@ font-size: 20px;
     text-transform: none;
   }
   
-  .faq .row .container .accordion:nth-child(1) .accordion-body{
+  /* .faq .row .container details:nth-child(1) .accordion-body{
     display: block;
-  } 
+  }  */
 
   
   
