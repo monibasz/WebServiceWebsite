@@ -504,7 +504,7 @@ body{
     text-align: left;
   }
   .faq .row .container section{
-    width: 700px;
+    width: 800px;
   
   }
 
@@ -512,7 +512,7 @@ body{
 background: #AC7114;
 padding: 15px;
 color: #fff;
-border: 1px solid #333;
+border: 1px solid #FECA12;
 position: relative;
 list-style: none;
 border: none;
@@ -521,8 +521,9 @@ font-size: 20px;
 
   }
   .faq .row .container section details p{
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
+    margin: auto;
     color: #333;
     background: #fff;
 
